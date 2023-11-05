@@ -34,3 +34,16 @@
     font-weight: bold;
     cursor: pointer;
 }
+
+/* listado temas */
+
+h1{
+    font-size: 1,5rem;
+    color:aquamarine;
+    background-color: black;
+    text-align: center;
+}
+ul{
+    color:azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

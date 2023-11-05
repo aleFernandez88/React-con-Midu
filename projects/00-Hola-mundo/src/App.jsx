@@ -1,6 +1,8 @@
 /* eslint-disable no-unused-vars */
 import { TwitterFollowCard } from './TwitterFollowCard'
 import './App.css'
+import { SergiCode } from './SergieCode'
+import { ListadoApp} from './ListadoApp'
 export function App() {
     return (
         <section className='App'>
@@ -16,6 +18,10 @@ export function App() {
             <TwitterFollowCard name='Midu Dev' userName='Midudev'>
                 Midu dev
             </TwitterFollowCard>
+
+            <SergiCode value={100}/>
+
+             <ListadoApp/>
         </section>
     )
 }
