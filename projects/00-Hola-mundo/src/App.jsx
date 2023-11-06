@@ -1,8 +1,8 @@
 /* eslint-disable no-unused-vars */
-import { TwitterFollowCard } from './TwitterFollowCard'
-import './App.css'
-import { SergiCode } from './SergieCode'
-import { ListadoApp} from './ListadoApp'
+import { TwitterFollowCard } from './components/TwitterFollowCard'
+import './styles/App.css'
+import { SergiCode } from './components/SergieCode'
+import { ListadoApp } from './components/ListadoApp'
 export function App() {
     return (
         <section className='App'>
@@ -19,9 +19,8 @@ export function App() {
                 Midu dev
             </TwitterFollowCard>
 
-            <SergiCode value={100}/>
-
-             <ListadoApp/>
+            <SergiCode value={100} />
+            <ListadoApp />
         </section>
     )
 }

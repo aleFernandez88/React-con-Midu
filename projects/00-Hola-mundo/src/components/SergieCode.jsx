@@ -2,6 +2,7 @@
 /* eslint-disable no-unused-vars */
 // eslint-disable-next-line no-unused-vars
 import { useState } from "react";
+import { AddTask } from "./AddTask";
 
 export const SergiCode = ({ value }) => {
     const [contador, setContador] = useState(value);
